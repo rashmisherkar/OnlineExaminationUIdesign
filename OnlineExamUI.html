@@ -1,150 +1,251 @@
-
-<!-- saved from url=(0048)file:///D:/ATD%20Services/HTML/OnlineExamUI.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-</head><body><center>ONLINE EXAM SYSTEM</center>
-
-<form width="100" height="100">
+<html>
+<head>
+<center>ONLINE EXAM SYSTEM</center></head>
+<body>
+<form >
 <fieldset>
+<div>
 <b><center>ONLINE EXAM SYSTEM</center></b><br>
 <center><button type="button">Admin Login</button></center><br><br>
 <center><button type="button">Student Login</button></center>
+</div>
 </fieldset>
 </form>
+</body>
 
-
+</html>
 
 Click on Admin button.
-
-<center>Admin Login</center>
-
+<html>
+<head><center>Admin Login</center></head>
+<body>
 <form>
 <fieldset>
+<div>
 <legend>Log In</legend>
 <center><label><b>Username:</b> <input type="text" placeholder="username"></label></center><br>
 <center><label><b>Password:</b> <input type="password" placeholder="password"></label><center><br>
 <center><input type="submit" value="Submit">
   <button type="back" class="back">Back</button></center>
-</center></center></fieldset>
+</div></fieldset>
 </form>
-
+</body>
+</html>
 
 
 After Admin Login.
-
-<center>Admin Section</center>
-
+<html>
+<head><center>Admin Section</center></head>
+<body>
 <form>
 <fieldset>
-<center><button type="button">Add Student</button></center><br>
-<center><button type="button">View Student</button></center><br>
-<center><button type="button">Update Student</button></center><br>
+<div>
+<center><button type="button">Class</button></center><br>
 <center><button type="button">Rules</button></center><br>
+<center><button type="button">Question Bank</button></center><br>
 <center><button type="button">Logout</button></center>
+</div></fieldset>
+</form>
+</body>
+</html>
+
+
+
+click class.
+<html>
+<head><center>Class</center></head>
+<body>
+<form>
+<fieldset>
+<div>
+<center><button type="button">Add Class</button></center><br>
+<center><button type="button">View Class</button></center><br>
+<center><button type="button">Back</button></center>
+</div></fieldset>
+</form>
+</body>
+</html>
+
+Add Class.
+<html>
+<head><center>Add Class</center></head>
+<body>
+<form>
+<fieldset>
+<div>
+ <center><label><b>ClassName:</b></label>
+    <input type="text" placeholder="Enter Class name" name="ClassName" id="ClassName" required></center><br>
+
+   <center><label><b>Batch:</b></label>
+    <input type="Batch" placeholder="Enter Batch" name="Batch" id="Batch" required></center><br>
+	<center><input type="submit" value="Submit">
+ 	 <button type="back" class="back">Back</button></center>
+</div></fieldset>
+</form>
+</body>
+</html>
+
+
+View Class.
+<html>
+<head><center>View Class</center></head>
+<body>
+<form>
+<fieldset>
+<div>
+<center><table border="1" cellpadding="10" cellspacing="5">
+<tr><th>Class</th>
+<th>Batch</th>
+<th>Add Student</th>
+<th>View Student</th>
+</tr>
+<tr><td>MCA I</td>
+<td>2021-22</td>
+<td><button type="button">Add</button></td>
+<td><button type="button">View</button></td>
+</tr>
+<tr><td>MCA II</td>
+<td>2021-22</td>
+<td><button type="button">Add</button></td>
+<td><button type="button">View</button></td>
+</tr>
+</table>
+  <button type="back" class="back">Back</button></center>
+</div>
 </fieldset>
 </form>
-
+</body>
+</html>
 
 
 Add student:
-
-<center>Add Student</center>
-
-<form action="file:///D:/ATD%20Services/HTML/action_page.php">
+<html>
+<head><center>Add Student</center></head>
+<body>
+<form action="action_page.php">
 <fieldset>
+<div>
     <center><label><b>ID:</b></label>
-    <input type="text" placeholder="Enter ID" name="id" id="id" required=""></center><br>
+    <input type="text" placeholder="Enter ID" name="id" id="id" required></center><br>
 
    <center><label><b>Name:</b></label>
-    <input type="Name" placeholder="Enter Name" name="Name" id="name" required=""></center><br>
+    <input type="Name" placeholder="Enter Name" name="Name" id="name" required></center><br>
 
    <center><label><b>Contact No:</b></label>
-    <input type="phno" placeholder="contact no" name="phno" id="phno" required=""></center><br>
+    <input type="phno" placeholder="contact no" name="phno" id="phno" required></center><br>
    
    <center><label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required=""></center><br>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required></center><br>
 
     <center><label><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required=""></center><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required></center><br>
     
    <center>  <button type="submit" class="save">Save</button>
              <button type="reset" class="reset">Reset</button>
     	<button type="back" class="back">Back</button></center>
-</fieldset>
+</div></fieldset>
 </form>
-
-
+</body>
+</html>
 
 
 view Student:
-
-<center>View Student</center>
-
-<form action="file:///D:/ATD%20Services/HTML/action_page.php">
+<html>
+<head><center>View Student</center></head>
+<body>
+<form action="action_page.php">
 <fieldset>
+<div>
 <center><table border="1" cellpadding="10" cellspacing="5">
-<tbody><tr><th>ID</th>
+<tr><th>ID</th>
 <th>Name</th>
-<th>Contact NO</th>
+<th>Contact No</th>
 <th>Password</th>
+<th></th>
+<th></th>
 </tr>
 <tr><td>1</td>
 <td>Rashmi</td>
 <td>9284727411</td>
 <td>Rashmi123</td>
+<td><button type="button">Update</button></td>
+<td><button type="button">Delete</button></td>
 </tr>
 <tr><td>2</td>
 <td>Ganesh</td>
 <td>8685848382</td>
 <td>Ganesh123</td>
+<td><button type="button">Update</button></td>
+<td><button type="button">Delete</button></td>
 </tr>
 <tr><td>3</td>
 <td>shilpa</td>
 <td>8888181761</td>
 <td>shilpa123</td>
-</tr>
-</tbody></table><br>
-  <center>  <button type="back" class="back">Back</button></center>
-</center></fieldset>
+<td><button type="button">Update</button></td>
+<td><button type="button">Delete</button></td>
+</tr></center>
+</table><br>
+  <center>  <button type="Remove class" class="Remove class">Remove Class</button>
+  <button type=close" class="back">Close</button></center>
+</div></fieldset>
 </form>
-
-
+</body>
+</html>
 
 Updatestudent:
-
-<center>Update Student</center>
-
-<form action="file:///D:/ATD%20Services/HTML/action_page.php">
+<html>
+<head><center>Update Student</center></head>
+<body>
+<form action="action_page.php">
 <fieldset>
+<div>
     <center><label><b>ID:</b></label>
-    <input type="text" placeholder="Enter ID" name="id" id="id" required=""></center>
-    <button type="button">Load</button><br>
+    <input type="text" placeholder="Enter ID" name="id" id="id" required>
 
    <center><label><b>Name:</b></label>
-    <input type="Name" placeholder="Enter Name" name="Name" id="name" required=""></center><br>
+    <input type="Name" placeholder="Enter Name" name="Name" id="name" required></center><br>
 
    <center><label><b>Contact No:</b></label>
-    <input type="phno" placeholder="contact no" name="phno" id="phno" required=""></center><br>
+    <input type="phno" placeholder="contact no" name="phno" id="phno" required></center><br>
    
    <center><label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required=""></center><br>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required></center><br>
 
     <center><label><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required=""></center><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required></center><br>
     
    <center>  <button type="submit" class="Update">Update</button>
   <button type="back" class="back">Back</button></center>
-</fieldset>
+</div></fieldset>
 </form>
+</body>
+</html>
 
+
+Delete student:
+<html>
+<head><center>Delete Student</center></head>
+<body>
+<form action="action_page.php">
+<fieldset>
+<div>
+ <h2>Student Deleted Successfully!<h2>
+  <button type="back" class="back">Back</button></center>
+</div></fieldset>
+</form>
+</body>
+</html>
 
 
 click on Rules:
-
-<center>Rules</center>
-
+<html>
+<head><center>Rules</center></head>
+<body>
 <form>
 <fieldset>
-<center><p online="" exam="" rules=""></p></center>
+<div>
+<center><p Online Exam Rules></center>
 <center><ul>
 <li>The online exams can be taken by the responsible teacher and/or by other staff members who were involved in the education.</li>
 <li>The instructors and other staff members will make good agreements in advance about the evaluation criteria, instructions, answer keys, etc.
@@ -153,48 +254,51 @@ click on Rules:
 <li>The examiner will always be available by phone at each online assessments in one’s own (home) environment
  evaluation in case there are problems with the internet connection or technical breakdowns.
  The examiners will communicate their telephone number to the students in advance.</li>
-
-</ul></center></fieldset>
+</ui>  <button type="back" class="back">Back</button></center>
+</div></fieldset>
 </form>
-
-
+</body>
+</html>
 
 
 Click on Student login button.
-
-<center>Student Login</center>
-
+<html>
+<head><center>Student Login</center></head>
+<body>
 <form>
 <fieldset>
-<legend>Log In</legend>
+<div>
+<center><label>Log In</label></center>
 <center><label><b>Username:</b> <input type="text" placeholder="username"></label></center><br>
 <center><label><b>Password:</b> <input type="password" placeholder="password"></label><center><br>
 <center><input type="submit" value="Submit"></center>
-</center></center></fieldset>
+</div></fieldset>
 </form>
-
-
+</body>
+</html>
 
 
 After Student Login.
-
-<center>Student Section</center>
-
+<html>
+<head><center>Student Section</center></head>
+<body>
 <form>
 <fieldset>
+<div>
 <center><button type="button">TEST</button></center><br>
 <center><button type="button">RESULT</button></center><br>
-</fieldset>
+</div></fieldset>
 </form>
-
-
+</body>
+</html>
 
 click on test:
-
-<center>TEST</center>
-
+<html>
+<head><center>TEST</center></head>
+<body>
 <form>
 <fieldset>
+<div>
 <center><button type="button">Rules</button></center><br>
 <center> <label for="Select Subject">Select Subject:</label>
         <select name="Select Subject" id="Select Subject">
@@ -205,213 +309,120 @@ click on test:
 <center><button type="button">Done</button>
     	<button type="button">Back</button></center>
 
+</div></fieldset>
+</form>
+</body>
+</html>
+
+
+click on start exam:
+<html>
+<head><center>Start Exam</center></head>
+<body>
+<form>
+<fieldset>
+<label>Timer</label> 15:10 <button id="start-btn">Start</button><br><br><br>
+<label>1.Which of the following is not a Java features?</label><br>
+
+<input type="radio" id="Dynamic" name="Dynamic" value="Dynamic" >
+<label for="Dynamic">Dynamic</label><br>
+<input type="radio" id="Architecture Neutral" name="Architecture Neutral" value="Architecture Neutral">
+<label for="Architecture Neutral">Architecture Neutral</label><br>
+<input type="radio" id="Use of pointers" name="Use of pointers" value="Use of pointers">
+<label for="Use of pointers">Use of pointers</label><br>
+<input type="radio" id="Object-oriented" name="Object-oriented" value="Object-oriented">
+<label for="Object-oriented">Object-oriented</label><br><br<br><br>
+
+<button type="button">Back</button>
+<button type="button">Next</button><br><br>
+<button type="button">End Exam</button>
+<button type="button">Submit</button><br><br>
+
+<input type="radio" id="1" name="no" value="1">
+<label for="1">1</label>
+<input type="radio" id="2" name="no" value="2">
+<label for="2">2</label>
+<input type="radio" id="3" name="no" value="3">
+<label for="3">3</label>
+<input type="radio" id="4" name="no" value="4">
+<label for="4">4</label>
+<input type="radio" id="5" name="no" value="5">
+<label for="5">5</label><br>
+<input type="radio" id="6" name="no" value="6">
+<label for="6">6</label>
+<input type="radio" id="7" name="no" value="7">
+<label for="7">7</label>
+<input type="radio" id="8" name="no" value="8">
+<label for="8">8</label>
+<input type="radio" id="9" name="no" value="9">
+<label for="9">9</label>
+<input type="radio" id="10" name="no" value="10">
+<label for="10">10</label><br>
+<input type="radio" id="11" name="no" value="11">
+<label for="11">11</label>
+<input type="radio" id="12" name="no" value="12">
+<label for="12">12</label>
+<input type="radio" id="13" name="no" value="13">
+<label for="13">13</label>
+<input type="radio" id="14" name="no" value="14">
+<label for="14">14</label>
+<input type="radio" id="15" name="no" value="15">
+<label for="15">15</label><br>
+
+<input type="radio" id="Answer" name="Answer" value="Answer" style="color:blue;">
+<label for="Answer">Answer</label>
+<input type="radio" id="Not Answer" name="Not Answer" value="Not Answer">
+<label for="Not Answer">Not Answer</label>
+
 </fieldset>
 </form>
+</body>
+</html>
+
 
 
 
 click on Rules:
-
-<center>Rules</center>
-
+<html>
+<head><center>Rules</center></head>
+<body>
 <form>
 <fieldset>
-<center><p online="" exam="" rules=""></p></center>
+<div>
+<center><p Online Exam Rules></center>
 <ol>
-<li>Exam Duration 15 mins.</li>
+<li>Exam Duration 15.10 mins.</li>
 <li>Attempt each and every questions.</li>
-<li>Negative Marking is -1.</li>
 <li>Make sure your internet connection is in good condition.</li>
-
-</ol></fieldset>
+</ui>
+  <button type="back" class="back">Back</button></center>
+</div></fieldset>
 </form>
-
-
-
-
-
-click on Start Exam:
-
- 
-<center>Question paper</center>
-
-<form>
-<fieldset>
-<lable><b>1.Identify the return type of a method that does not return any value.</b><br>
-   <input type="checkbox" name="Q1" id="int">
-    <label for="int">int</label>
-   <input type="checkbox" name="Q1" id="void">
-    <label for="void">void</label>
-    <input type="checkbox" name="Q1" id="double">
-    <label for="double">double</label>
- <input type="checkbox" name="Q1" id="None">
-    <label for="None">None</label><br><br>
-
-<lable><b>2. Identify the modifier which cannot be used for constructor.</b><br>
-   <input type="checkbox" name="Q2" id="public">
-    <label for="public">public</label>
-   <input type="checkbox" name="Q2" id="protected">
-    <label for="protected">protected</label>
-    <input type="checkbox" name="Q2" id="private">
-    <label for="private">private</label>
- <input type="checkbox" name="Q2" id="static">
-    <label for="static">static</label><br><br>
-
-<lable><b>3.When is the finalize() method called?</b><br>
-   <input type="checkbox" name="Q3" id="Before garbage collection">
-    <label for="Before garbage collection">Before garbage collection</label>
-   <input type="checkbox" name="Q3" id="before an object goes out of space">
-    <label for="before an object goes out of space">before an object goes out of space</label>
-    <input type="checkbox" name="Q3" id="before variable goes out of space">
-    <label for="before variable goes out of space">before variable goes out of space</label>
- <input type="checkbox" name="Q3" id="None">
-    <label for="None">None</label><br><br>
-
-<lable><b>4.Identify the return type of a method that does not return any value.</b><br>
-   <input type="checkbox" name="Q1" id="int">
-    <label for="int">int</label>
-   <input type="checkbox" name="Q1" id="void">
-    <label for="void">void</label>
-    <input type="checkbox" name="Q1" id="double">
-    <label for="double">double</label>
- <input type="checkbox" name="Q1" id="None">
-    <label for="None">None</label><br><br>
-
-<lable><b>5. Identify the modifier which cannot be used for constructor.</b><br>
-   <input type="checkbox" name="Q2" id="public">
-    <label for="public">public</label>
-   <input type="checkbox" name="Q2" id="protected">
-    <label for="protected">protected</label>
-    <input type="checkbox" name="Q2" id="private">
-    <label for="private">private</label>
- <input type="checkbox" name="Q2" id="static">
-    <label for="static">static</label><br><br>
-
-<lable><b>6.When is the finalize() method called?</b><br>
-   <input type="checkbox" name="Q3" id="Before garbage collection">
-    <label for="Before garbage collection">Before garbage collection</label>
-   <input type="checkbox" name="Q3" id="before an object goes out of space">
-    <label for="before an object goes out of space">before an object goes out of space</label>
-    <input type="checkbox" name="Q3" id="before variable goes out of space">
-    <label for="before variable goes out of space">before variable goes out of space</label>
- <input type="checkbox" name="Q3" id="None">
-    <label for="None">None</label><br><br>
-
-<lable><b>7.Identify the return type of a method that does not return any value.</b><br>
-   <input type="checkbox" name="Q1" id="int">
-    <label for="int">int</label>
-   <input type="checkbox" name="Q1" id="void">
-    <label for="void">void</label>
-    <input type="checkbox" name="Q1" id="double">
-    <label for="double">double</label>
- <input type="checkbox" name="Q1" id="None">
-    <label for="None">None</label><br><br>
-
-<lable><b>8. Identify the modifier which cannot be used for constructor.</b><br>
-   <input type="checkbox" name="Q2" id="public">
-    <label for="public">public</label>
-   <input type="checkbox" name="Q2" id="protected">
-    <label for="protected">protected</label>
-    <input type="checkbox" name="Q2" id="private">
-    <label for="private">private</label>
- <input type="checkbox" name="Q2" id="static">
-    <label for="static">static</label><br><br>
-
-<lable><b>9.When is the finalize() method called?</b><br>
-   <input type="checkbox" name="Q3" id="Before garbage collection">
-    <label for="Before garbage collection">Before garbage collection</label>
-   <input type="checkbox" name="Q3" id="before an object goes out of space">
-    <label for="before an object goes out of space">before an object goes out of space</label>
-    <input type="checkbox" name="Q3" id="before variable goes out of space">
-    <label for="before variable goes out of space">before variable goes out of space</label>
- <input type="checkbox" name="Q3" id="None">
-    <label for="None">None</label><br><br>
-
-<lable><b>10.Identify the return type of a method that does not return any value.</b><br>
-   <input type="checkbox" name="Q1" id="int">
-    <label for="int">int</label>
-   <input type="checkbox" name="Q1" id="void">
-    <label for="void">void</label>
-    <input type="checkbox" name="Q1" id="double">
-    <label for="double">double</label>
- <input type="checkbox" name="Q1" id="None">
-    <label for="None">None</label><br><br>
-
-<lable><b>11. Identify the modifier which cannot be used for constructor.</b><br>
-   <input type="checkbox" name="Q2" id="public">
-    <label for="public">public</label>
-   <input type="checkbox" name="Q2" id="protected">
-    <label for="protected">protected</label>
-    <input type="checkbox" name="Q2" id="private">
-    <label for="private">private</label>
- <input type="checkbox" name="Q2" id="static">
-    <label for="static">static</label><br><br>
-
-<lable><b>12.When is the finalize() method called?</b><br>
-   <input type="checkbox" name="Q3" id="Before garbage collection">
-    <label for="Before garbage collection">Before garbage collection</label>
-   <input type="checkbox" name="Q3" id="before an object goes out of space">
-    <label for="before an object goes out of space">before an object goes out of space</label>
-    <input type="checkbox" name="Q3" id="before variable goes out of space">
-    <label for="before variable goes out of space">before variable goes out of space</label>
- <input type="checkbox" name="Q3" id="None">
-    <label for="None">None</label><br><br>
-
-<lable><b>13.Identify the return type of a method that does not return any value.</b><br>
-   <input type="checkbox" name="Q1" id="int">
-    <label for="int">int</label>
-   <input type="checkbox" name="Q1" id="void">
-    <label for="void">void</label>
-    <input type="checkbox" name="Q1" id="double">
-    <label for="double">double</label>
- <input type="checkbox" name="Q1" id="None">
-    <label for="None">None</label><br><br>
-
-<lable><b>14. Identify the modifier which cannot be used for constructor.</b><br>
-   <input type="checkbox" name="Q2" id="public">
-    <label for="public">public</label>
-   <input type="checkbox" name="Q2" id="protected">
-    <label for="protected">protected</label>
-    <input type="checkbox" name="Q2" id="private">
-    <label for="private">private</label>
- <input type="checkbox" name="Q2" id="static">
-    <label for="static">static</label><br><br>
-
-<lable><b>15.When is the finalize() method called?</b><br>
-   <input type="checkbox" name="Q3" id="Before garbage collection">
-    <label for="Before garbage collection">Before garbage collection</label>
-   <input type="checkbox" name="Q3" id="before an object goes out of space">
-    <label for="before an object goes out of space">before an object goes out of space</label>
-    <input type="checkbox" name="Q3" id="before variable goes out of space">
-    <label for="before variable goes out of space">before variable goes out of space</label>
- <input type="checkbox" name="Q3" id="None">
-    <label for="None">None</label><br><br>
-<center><input type="submit" value="Submit"></center>
-    
-</lable></lable></lable></lable></lable></lable></lable></lable></lable></lable></lable></lable></lable></lable></lable></fieldset>
-</form>
+</body>
+</html>
 
 
 
 click on Result:
-
-<center>Result</center>
-
+<html>
+<head><center>Result</center></head>
+<body>
 <form>
 <fieldset>
-<center> <label><b>Student ID:</b></label><b>
-<input type="text" name="id" id="1"><br></b></center><b>
-<center> <label><b>Attempt:</b></label><b> <output name="Attempt" for="attempt">15</output></b></center><b><br>
-<center><label><b>Correct:</b></label><b> <output name="Correct" for="correct">12</output></b></center><b><br>
-<center>  <label><b>Total Marks:</b></label><b><output name="Total Marks" for="Total Marks">9</output></b></center><b><br>
+<div>
+<center> <label><b>Student ID:</label>
+<input type="text" name="id" id="1"><br></center>
+<center> <label><b>Attempt:</label> <output name="Attempt" for="attempt">17</output></center><br>
+<center><label><b>Correct:</label> <output name="Correct" for="correct">15</output></center><br>
+<center>  <label><b>Total Marks:</label><output name="Total Marks" for="Total Marks">15</output></center><br>
 <center><input type="submit" value="Close"></center>
-</b></b></b></b></fieldset><b><b><b>
+</div>
+</fieldset>
+</form>
+</body>
+</html>
 
 
 
 
 
-
-
-
-</b></b></b></form></body></html>
